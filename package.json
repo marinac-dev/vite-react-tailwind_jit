@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "watch:css": "postcss -w src/index.css -o src/output.css"
   },
   "dependencies": {
     "react": "^17.0.0",
